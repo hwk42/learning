@@ -7,4 +7,8 @@ import 'package:get/get.dart';
 
 import 'http_listview.dart';
 
-void main() => runApp(GetMaterialApp(home: Home(),debugShowCheckedModeBanner: false,));
+//void main() => runApp(GetMaterialApp(home: Home(),debugShowCheckedModeBanner: false,));
+
+void main() {  
+  runApp(ListViewApp());  
+}  
